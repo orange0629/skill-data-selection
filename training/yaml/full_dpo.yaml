@@ -1,0 +1,51 @@
+### model
+model_name_or_path: deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+template: deepseek_r1_distill_qwen
+# trust_remote_code: true
+
+### method
+stage: dpo
+do_train: true
+finetuning_type: full
+pref_beta: 0.1
+pref_loss: sigmoid  # choices: [sigmoid (dpo), orpo, simpo]
+deepspeed: examples/deepspeed/ds_z3_config.json
+
+### dataset
+dataset: preference_pairs_math_filtered
+cutoff_len: 8192
+max_samples: 10000
+overwrite_cache: true
+preprocessing_num_workers: 16
+dataloader_num_workers: 4
+
+### output
+output_dir: saves/ds_r1_qwen_1.5B/full/dpo
+logging_steps: 10
+save_steps: 100
+plot_loss: true
+overwrite_output_dir: true
+save_only_model: true
+report_to: wandb
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 8
+learning_rate: 5.0e-6
+num_train_epochs: 1.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+resume_from_checkpoint: null
+
+### eval
+# eval_dataset: dpo_en_demo
+# val_size: 0.1
+# per_device_eval_batch_size: 1
+# eval_strategy: steps
+# eval_steps: 500
+
+### sequence parallel
+sequence_parallel_size: 4
+sequence_parallel_mode: "zigzag-ring"

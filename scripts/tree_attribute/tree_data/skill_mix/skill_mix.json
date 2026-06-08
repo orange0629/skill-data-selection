@@ -1,0 +1,159 @@
+{
+    "name": "Mathematics",
+    "children": [
+      {
+        "name": "Pre-Algebra",
+        "children": [
+          { "name": "average calculations" },
+          { "name": "ratio and proportion" },
+          { "name": "geometry" },
+          { "name": "basic arithmetic operations" },
+          { "name": "fractions and decimals" },
+          { "name": "probability and combinatorics" },
+          { "name": "multiplication and division" },
+          { "name": "counting and number theory" },
+          { "name": "prime number theory" },
+          { "name": "multiples and zero properties" },
+          { "name": "linear equation" },
+          { "name": "circles" },
+          { "name": "exponentiation rules" },
+          { "name": "perimeter and area" }
+        ]
+      },
+      {
+        "name": "Algebra",
+        "children": [
+          { "name": "combinatorial operations and basic arithmetic" },
+          { "name": "function skills" },
+          { "name": "calculation and conversion skills" },
+          { "name": "solving equations" },
+          { "name": "inequality skills" },
+          { "name": "graph and geometry skills" },
+          { "name": "number theory skills" },
+          { "name": "factoring skills" },
+          { "name": "complex number skills" },
+          { "name": "sequence and series skills" },
+          { "name": "quadratic equation skills" },
+          { "name": "geometric sequence skills" },
+          { "name": "polynomial skills" },
+          { "name": "ratio and proportion skills" },
+          { "name": "logarithmic and exponential skills" },
+          { "name": "algebraic manipulation skills" },
+          { "name": "distance and midpoint skills" },
+          { "name": "arithmetic skills" },
+          { "name": "algebraic expression skills" },
+          { "name": "function composition skills" }
+        ]
+      },
+      {
+        "name": "Inter-Algebra",
+        "children": [
+          { "name": "solving inequalities" },
+          { "name": "exponent and root skills" },
+          { "name": "understanding and application of functions" },
+          { "name": "inequality solving and understanding" },
+          { "name": "calculus optimization skills" },
+          { "name": "floor and ceiling functions" },
+          { "name": "function composition and transformation" },
+          { "name": "solving system of equations" },
+          { "name": "quadratic equations and solutions" },
+          { "name": "polynomial skills" },
+          { "name": "summation and analysis of series" },
+          { "name": "sequence and series analysis skills" },
+          { "name": "infinite series understanding" },
+          { "name": "recursive functions and sequences" },
+          { "name": "complex number manipulation and operations" },
+          { "name": "ellipse properties" },
+          { "name": "classification and basic operations" },
+          { "name": "complex numbers related skills" },
+          { "name": "graph understanding and interpretation" },
+          { "name": "logarithmic properties and solving equations" },
+          { "name": "rational functions manipulation" },
+          { "name": "simplification of exponents" },
+          { "name": "algebraic manipulation and equations" },
+          { "name": "prime number recognition and properties" },
+          { "name": "absolute value skills" }
+        ]
+      },
+      {
+        "name": "Geometry understanding",
+        "children": [
+          { "name": "circle properties and algebraic manipulation" },
+          { "name": "other geometric skills" },
+          { "name": "pythagorean skills" },
+          { "name": "quadrilateral and polygon skills" },
+          { "name": "triangle geometry skills" },
+          { "name": "calculus skills" },
+          { "name": "3d geometry and volume calculation skills" },
+          { "name": "circle geometry skills" },
+          { "name": "area calculation skills" },
+          { "name": "coordinate geometry and transformation skills" },
+          { "name": "ratio and proportion skills" },
+          { "name": "trigonometry skills" },
+          { "name": "combinatorics and probability skills" },
+          { "name": "algebraic skills" }
+        ]
+      },
+      {
+        "name": "Number Theory",
+        "children": [
+          { "name": "base conversion" },
+          { "name": "prime number theory" },
+          { "name": "greatest common divisor calculations" },
+          { "name": "modular arithmetic" },
+          { "name": "solving equations" },
+          { "name": "number theory" },
+          { "name": "factorization" },
+          { "name": "division and remainders" },
+          { "name": "exponentiation" },
+          { "name": "sequence analysis" },
+          { "name": "arithmetic sequences" },
+          { "name": "basic arithmetic" },
+          { "name": "polynomial operations" },
+          { "name": "understanding of fractions" },
+          { "name": "number manipulation" }
+        ]
+      },
+      {
+        "name": "Precalculus",
+        "children": [
+          { "name": "matrix operations" },
+          { "name": "geometric series comprehension" },
+          { "name": "basic trigonometry" },
+          { "name": "vector operations" },
+          { "name": "coordinate systems" },
+          { "name": "trigonometric calculations" },
+          { "name": "complex numbers" },
+          { "name": "geometric relations" },
+          { "name": "calculus" },
+          { "name": "algebra and equations" },
+          { "name": "three dimensional geometry" },
+          { "name": "parametric equations" },
+          { "name": "sequences series and summation" },
+          { "name": "arithmetic operations" },
+          { "name": "geometry triangle properties" },
+          { "name": "geometry and space calculation" },
+          { "name": "determinant calculation" },
+          { "name": "geometry transforms" },
+          { "name": "complex number operations" }
+        ]
+      },
+      {
+        "name": "Probability",
+        "children": [
+          { "name": "probability calculation with replacement" },
+          { "name": "probability theory and distribution" },
+          { "name": "permutation and combinations" },
+          { "name": "combinatorics knowledge" },
+          { "name": "combinatorial mathematics" },
+          { "name": "counting principles" },
+          { "name": "probability concepts and calculations" },
+          { "name": "calculating and understanding combinations" },
+          { "name": "number theory and arithmetic operations" },
+          { "name": "factorials and prime factorization" },
+          { "name": "understanding and applying combinatorics concepts" }
+        ]
+      }
+    ]
+  }
+  
